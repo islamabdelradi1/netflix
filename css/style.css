@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+header{
+    background-image: url(/img/IN-en-20210719-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.dark{
+    background-color: rgba(0, 0, 0, 0.534);
+    height: 1000px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    margin: 0 130px;
+    z-index: 2;
+}
+.imgs-logo img{
+    width: 150px;
+}
+.nav-url a{
+text-decoration: none;
+margin-left: 20px;
+border-radius: 5px;
+color: white;
+}
+
+#English{
+    border: none;
+    background-color: black;
+    color: white;
+}
+#English:focus{
+    outline: none;
+}
+#English option{
+    background-color: white;
+    color: black;
+}
+.btn-1{
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding:14px 10px;
+
+}
+.btn-2{
+    background-color: #DC030F;
+    padding: 14px 30px;
+    font-size: 17px;
+}
+
+.fa-chevron-down{
+    font-size: 10px;
+    padding-left: 5px;
+}
+.wasf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    flex-direction: column;
+    height: 1000px;
+}
+
+.wasf h1{
+    font-size: 60px;
+}
+.wasf p{
+    font-size: 25px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.wasf input{
+    border: none;
+    padding: 19px 626px 19px 10px;
+    position: relative;
+    margin-left: 14px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+.wasf input:focus{
+    outline: none;
+}
+.wasf .labels1{
+    position: absolute;
+    left: 556px;
+    color: rgb(175, 173, 173);;
+    font-size: 20px;
+    top: 707px;
+} 
+.titleEmail1{
+    position: absolute;
+    left: 548px;
+    color: rgb(175, 173, 173);
+    font-size: 12px;
+    top: 700px;
+}
+.wasf .btn-email{
+    position: absolute;
+    border: none;
+    padding: 15px 20px;
+    margin-left: 678px;
+    margin-top: 239px;
+    background-color: #DC030F;
+    color: white;
+    font-size: 25px;
+    border-start-end-radius:5px ;
+    border-end-end-radius: 5px;
+}
+
+.sec1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    border-top:10px  solid #222222 ;
+    color: white;
+    padding: 90px;
+
+}
+.sec1 .left1 h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+.sec1 .left1 p{
+    font-size: 20px;
+}
+
+.r-1 img{
+position: relative;
+width: 500px;
+z-index:99;
+}
+.r-1 video{
+    position: absolute;
+    margin-left: -432px;
+    margin-top: 81px;
+    width: 360px;
+}
+.sec2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    border-top:10px  solid #222222 ;
+    color: white;
+    padding: 90px;
+
+
+}
+.left2 .img1{
+width: 480px;
+position: relative;
+}
+.on-photo{
+    background-color: black;
+    border:5px  solid #222222 ;
+    border-radius: 10px;
+    padding: 20px 10px;
+    width: 300px;
+    position: absolute;
+    margin-top: -110px;
+    margin-left: 90px;
+}
+.on-photo img{
+    position: absolute;
+}
+.on-photo .img2{
+    width: 35px;
+}
+.on-photo .img3{
+    position: absolute;
+    width: 50px;
+    margin-left: 220px;
+    margin-top: -45px;
+}
+.r-2 h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.r-2 p{
+    font-size: 25px;
+}
+.on-photo h3{
+    margin-left: 60px;
+    margin-bottom: 5px;
+
+}
+
+.on-photo p{
+    margin-left: 60px;
+    font-size: 14px;
+    color: blue;
+}
+.sec3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    border-top:10px  solid #222222 ;
+    color: white;
+    padding: 90px;
+}
+.sec3 .left3 h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.sec3 .left3 p{
+    font-size: 20px;
+}
+
+.r-3 img{
+position: relative;
+width: 500px;
+z-index:99;
+}
+.r-3 video{
+    position: absolute;
+    margin-left: -412px;
+    margin-top: 25px;
+    width: 313px;
+}
+.sec4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    border-top:10px  solid #222222 ;
+    color: white;
+    padding: 80px 90px;
+}
+.sec4 .left4 img{
+width: 500px;
+}
+.sec4 .r-4 h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.sec4 .r-4 p{
+    font-size: 25px;
+}
+.sec5{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    border-top:10px  solid #222222 ;
+    color: white;
+    padding: 80px 90px;
+}
+.sec5 .hh1 h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.click6{
+    margin: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 1300px;
+
+}
+.btn-clicks{
+    position: relative;
+    border: none;
+    background-color: #303030;
+    color: white;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    height: 70px;
+    font-size: 25px;
+    text-align: start;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-clicks button{
+    position: relative;
+    border: none;
+    background-color: #303030;
+    color: white;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    height: 70px;
+    font-size: 25px;
+    text-align: start;
+}
+.btn-clicks .fa-plus{
+    font-size: 40px;
+    position: absolute;
+    right: 50px;
+    top: 15px;
+}
+.in-p{
+    margin-top: 40px;
+}
+.in-p p{
+    font-size: 16.5px;
+    text-align: center;
+
+}
+.btn-foot{
+    margin-top: 20px;
+
+}
+.in-p input{
+    border: none;
+    padding: 19px 626px 19px 10px;
+    position: relative;
+    margin-left: 14px;
+    border-radius: 5px;
+    font-size: 17px;  
+}
+.in-p .labels-1{
+    position: absolute;
+    left: 556px;
+    color: rgb(175, 173, 173);;
+    font-size: 20px;
+    top: 3990px;
+} 
+.titleEmail{
+    position: absolute;
+    left: 556px;
+    color: rgb(175, 173, 173);
+    font-size: 12px;
+    top: 3977px;
+}
+.in-p input:focus{
+    outline: none;
+}
+.in-p .btn-email{
+    position: absolute;
+    border: none;
+    padding: 15px 20px;
+    margin-left: -188px;
+    background-color: #DC030F;
+    color: white;
+    font-size: 25px;
+    border-start-end-radius:5px ;
+    border-end-end-radius: 5px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border-top:10px  solid #222222 ;
+    color: #757575;
+    padding: 40px 0 50px 190px;
+}
+.urls-footer{
+display: flex;
+
+}
+.nav1 a {
+text-decoration: none;
+color: #757575;
+display: flex;
+flex-direction: column;
+padding-top: 10px;
+margin-right: 100px;
+}
+.nav2 a {
+    text-decoration: none;
+    color: #757575;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    margin-right: 100px;
+
+}
+
+.nav3 a {
+        text-decoration: none;
+        color: #757575;
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px; 
+        margin-right: 100px;
+
+}
+.nav4 a {
+    text-decoration: none;
+    color: #757575;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    margin-right: 100px;
+}
+.one-footer{
+    margin-bottom: 20px;
+}
+.btn-footer{
+    margin: 50px 0;
+}
+.btn-footer a{
+    text-decoration: none;
+    color:#757575 ;
+}
+.btn-footer .btn-1{
+    border: 2px solid #757575;
+    border-radius: 5px;
+}
+.logo-footer p{
+    font-size: 20px;
+}
